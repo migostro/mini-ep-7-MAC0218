@@ -17,7 +17,7 @@ class AnalisadorDeAprovacao {
     private var criterio: CriterioDeAprovacao
 
     fun defineCriterio(crit: CriterioDeAprovacao){
-        criterio = criterio
+        criterio = crit
     }
 
     fun fechaBoletim(boletim: Boletim): BoletimFechado{
